@@ -17,7 +17,7 @@ a {
     background-position-x: 20%;
     background-position-y: 20%;
     width: 100%;
-    height: 100vh;
+    height: 77vh;
     z-index: -1;
     animation: introLoad 2s forwards;
 }
@@ -61,6 +61,59 @@ h1 {
 
 .subhead {
   font-size: 1.4rem;
+}
+
+section.hero {
+  color: black;
+  height: 65vh;
+  animation: moveDown 1s ease-in-out forwards;
+
+  .down-arrow {
+      stroke : yellow;
+      position: absolute;
+      bottom: 1em;
+      width: 1.5em;
+      animation: moveArrow 1s alternate-reverse infinite;
+      path {
+        fill : yellow;
+      }
+  }
+}
+
+.more-info {
+
+  img {
+      width : 100%;
+      object-fit : cover;
+      height : 11em;
+  }
+
+  .title {
+      font-weight : bold;
+      font-size : 1.5rem;
+  }
+  .desc {
+      line-height : 1.5rem;
+  }
+}
+
+@keyframes moveArrow {
+  from {
+      transform: translateY(-30px);
+  }
+  to {
+      transform: translateY(0);
+  }
+}
+
+@keyframes moveDown {
+  from {
+      transform: translateY(-100px);
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
 }
 
 @keyframes introLoad {
