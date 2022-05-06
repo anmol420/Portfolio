@@ -97,6 +97,13 @@ section.hero {
   }
 }
 
+@media only screen and (min-width : 680px) {
+  body {
+    margin: 1.5em 5em;
+    font-family: 'Poppins',sans-serif;
+  }
+}
+
 @keyframes moveArrow {
   from {
       transform: translateY(-30px);
