@@ -17,7 +17,7 @@ a {
   background-position-x: 20%;
   background-position-y: 20%;
   width: 100%;
-  height: 77vh;
+  height: 100vh;
   z-index: -1;
   -webkit-animation: introLoad 2s forwards;
           animation: introLoad 2s forwards;
@@ -31,7 +31,7 @@ a {
   float: left;
   color: black;
   text-align: center;
-  padding: 14px 10px;
+  padding: 2vh 0.5vh;
   text-decoration: none;
   font-size: 1.4rem;
 }
@@ -41,7 +41,6 @@ a {
 }
 
 .topnav a:hover {
-  background-color: #00c27b;
   color: black;
 }
 
@@ -65,21 +64,21 @@ h1 span {
 
 section.hero {
   color: black;
-  height: 65vh;
+  height: 90vh;
   -webkit-animation: moveDown 1s ease-in-out forwards;
           animation: moveDown 1s ease-in-out forwards;
 }
 
 section.hero .down-arrow {
-  stroke: yellow;
+  stroke: black;
   position: absolute;
-  bottom: 1em;
-  width: 1.5em;
+  bottom: 2em;
+  width: 1em;
   animation: moveArrow 1s alternate-reverse infinite;
 }
 
 section.hero .down-arrow path {
-  fill: yellow;
+  fill: white;
 }
 
 .more-info img {
@@ -102,6 +101,96 @@ section.hero .down-arrow path {
   body {
     margin: 1.5em 5em;
     font-family: 'Poppins',sans-serif;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .menu {
+    display: none;
+  }
+  .hero-img {
+    left: unset;
+    right: 0;
+    width: 50%;
+    height: 42em;
+  }
+  .logo {
+    color: black;
+  }
+  .logo span {
+    color: red;
+  }
+  .topnav {
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 2vh 0.5vh;
+    text-decoration: none;
+    font-size: 1.4rem;
+  }
+  .topnav a span {
+    color: black;
+  }
+  .topnav a:hover {
+    color: black;
+  }
+  .topnav a.active span {
+    color: red;
+  }
+  section.hero {
+    color: black;
+    height: auto;
+    width: 40%;
+    margin-bottom: 8em;
+  }
+  section.hero svg.down-arrow {
+    stroke: black;
+    position: unset;
+  }
+  section.hero svg.down-arrow path {
+    fill: black;
+  }
+  .feature {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[2];
+        grid-template-columns: repeat(2, auto);
+    gap: 3em;
+    margin-bottom: 8em;
+  }
+  .feature img {
+    width: 25em;
+  }
+  .feature .content {
+    text-align: right;
+    width: 25em;
+  }
+  feature.left {
+        grid-template-areas: "left right";
+  }
+  feature.left img {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: left;
+  }
+  feature.left .content {
+    text-align: left;
+    width: 25em;
+    -ms-grid-column-align: left;
+        justify-self: left;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .feature {
+    gap: 0;
   }
 }
 
