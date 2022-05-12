@@ -64,37 +64,6 @@ h1 span {
 
 section.hero {
   color: black;
-  height: 90vh;
-  -webkit-animation: moveDown 1s ease-in-out forwards;
-          animation: moveDown 1s ease-in-out forwards;
-}
-
-section.hero .down-arrow {
-  stroke: black;
-  position: absolute;
-  bottom: 2em;
-  width: 1em;
-  animation: moveArrow 1s alternate-reverse infinite;
-}
-
-section.hero .down-arrow path {
-  fill: white;
-}
-
-.more-info img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 11em;
-}
-
-.more-info .title {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-.more-info .desc {
-  line-height: 1.5rem;
 }
 
 @media only screen and (min-width: 680px) {
@@ -146,97 +115,12 @@ section.hero .down-arrow path {
     width: 40%;
     margin-bottom: 8em;
   }
-  section.hero svg.down-arrow {
-    stroke: black;
-    position: unset;
-  }
-  section.hero svg.down-arrow path {
-    fill: black;
-  }
-  .feature {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (auto)[2];
-        grid-template-columns: repeat(2, auto);
-    gap: 3em;
-    margin-bottom: 8em;
-  }
-  .feature img {
-    width: 25em;
-  }
-  .feature .content {
-    text-align: right;
-    width: 25em;
-  }
-  feature.left {
-        grid-template-areas: "left right";
-  }
-  feature.left img {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-    grid-area: left;
-  }
-  feature.left .content {
-    text-align: left;
-    width: 25em;
-    -ms-grid-column-align: left;
-        justify-self: left;
-  }
 }
 
 @media only screen and (min-width: 1200px) {
   .wrapper {
     width: 1200px;
     margin: 0 auto;
-  }
-  .feature {
-    gap: 0;
-  }
-}
-
-@-webkit-keyframes moveArrow {
-  from {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
-  }
-  to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-
-@keyframes moveArrow {
-  from {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
-  }
-  to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-
-@-webkit-keyframes moveDown {
-  from {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
-  }
-  to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes moveDown {
-  from {
-    -webkit-transform: translateY(-100px);
-            transform: translateY(-100px);
-  }
-  to {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
   }
 }
 
