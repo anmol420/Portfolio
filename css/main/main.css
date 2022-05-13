@@ -1,5 +1,5 @@
 body {
-  margin: 1.5em;
+  margin: 1.35em;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -25,11 +25,13 @@ a {
 
 .topnav {
   overflow: hidden;
+  border-color: blue;
 }
 
 .topnav a {
+  background-color: #3f3d56;
   float: left;
-  color: black;
+  color: #e94560;
   text-align: center;
   padding: 2vh 0.5vh;
   text-decoration: none;
@@ -39,15 +41,20 @@ a {
 }
 
 .topnav a span {
-  color: black;
-}
-
-.topnav a:hover {
-  color: black;
+  color: #e94560;
 }
 
 .topnav a.active span {
-  color: red;
+  color: #e94560;
+}
+
+.topnav a:hover {
+  background-color: #e94560;
+  color: #3f3d56;
+}
+
+.topnav a:hover span {
+  color: #3f3d56;
 }
 
 h1 {
@@ -59,7 +66,7 @@ h1 {
 }
 
 h1 span {
-  color: red;
+  color: #e94560;
 }
 
 .subhead {
