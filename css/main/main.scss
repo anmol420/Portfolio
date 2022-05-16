@@ -70,6 +70,17 @@ section.hero {
   animation: introLoad 2s forwards;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3f3d56;
+  color: #e94560;
+  text-decoration: none;
+  text-align: center;
+}
+
 @media only screen and (min-width : 680px) {
   body {
     margin: 1.5em 5em;
