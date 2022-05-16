@@ -24,8 +24,8 @@ a {
 }
 
 .topnav {
+  background-color: #3f3d56;
   overflow: hidden;
-  border-color: blue;
 }
 
 .topnav a {
@@ -42,19 +42,6 @@ a {
 
 .topnav a span {
   color: #e94560;
-}
-
-.topnav a.active span {
-  color: #e94560;
-}
-
-.topnav a:hover {
-  background-color: #e94560;
-  color: #3f3d56;
-}
-
-.topnav a:hover span {
-  color: #3f3d56;
 }
 
 h1 {
@@ -87,42 +74,29 @@ section.hero {
 }
 
 @media only screen and (min-width: 920px) {
-  .menu {
-    display: none;
-  }
   .hero-img {
     left: unset;
     right: 0;
     width: 50%;
     height: 42em;
   }
-  .logo {
-    color: black;
-  }
-  .logo span {
-    color: red;
-  }
   .topnav {
+    background-color: #3f3d56;
     overflow: hidden;
   }
   .topnav a {
+    background-color: #3f3d56;
     float: left;
-    color: black;
+    color: #e94560;
     text-align: center;
-    padding: 2vh 0.5vh;
+    padding: 2vh 23vh;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.24rem;
     -webkit-animation: introLoad 2s forwards;
             animation: introLoad 2s forwards;
   }
   .topnav a span {
-    color: black;
-  }
-  .topnav a:hover {
-    color: black;
-  }
-  .topnav a.active span {
-    color: red;
+    color: #e94560;
   }
   section.hero {
     color: black;
