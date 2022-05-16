@@ -33,13 +33,21 @@ a {
   float: left;
   color: #e94560;
   text-align: center;
-  padding: 2vh 0.5vh;
+  padding: 2vh 0.9vh;
   text-decoration: none;
   font-size: 1.24rem;
   span {
     color: #e94560;
   }
   animation: introLoad 2s forwards;
+}
+
+.topnav a.active:hover {
+  color: #3f3d56;
+  background-color: #e94560;
+  span {
+    color: #3f3d56;
+  }
 }
 
 h1 {
@@ -75,7 +83,7 @@ section.hero {
       left: unset;
       right: 0;
       width: 50%;
-      height: 42em;
+      height: 39em;
   }
 
   .topnav {
@@ -88,7 +96,7 @@ section.hero {
   float: left;
   color: #e94560;
   text-align: center;
-  padding: 2vh 23vh;
+  padding: 2vh 24.5vh;
   text-decoration: none;
   font-size: 1.24rem;
   span {
