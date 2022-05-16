@@ -98,7 +98,7 @@ section.hero {
     float: left;
     color: #e94560;
     text-align: center;
-    padding: 2vh 24.5vh;
+    padding: 1% 12.5%;
     text-decoration: none;
     font-size: 1.24rem;
     -webkit-animation: introLoad 2s forwards;
