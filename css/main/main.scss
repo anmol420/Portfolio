@@ -70,6 +70,19 @@ section.hero {
   animation: introLoad 2s forwards;
 }
 
+.social {
+  color: #e94560;
+  a {
+    font-size: 50px;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    line-height: 10px;
+    display: inline-block;
+    margin: 0px 20px;
+  }
+}
+
 .footer {
   position: fixed;
   left: 0;
@@ -122,6 +135,19 @@ section.hero {
       width: 40%;
       margin-bottom: 8em;
       animation: introLoad 2s forwards;
+  }
+
+  .social {
+    color: #e94560;
+    a {
+      font-size: 50px;
+      color: inherit;
+      width: 40px;
+      height: 40px;
+      line-height: 10px;
+      display: inline-block;
+      margin: -100px 20px;
+    }
   }
 }
 
