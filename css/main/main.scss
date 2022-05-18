@@ -139,6 +139,8 @@ section.hero {
   }
 
   .topnav {
+    width: 106.9%;
+    padding: 0;
     background-color: #3f3d56;
     overflow: hidden;
   }
@@ -160,6 +162,7 @@ section.hero {
   }
 
   section.hero {
+    margin: 3.5em;
     color: black;
     height: auto;
     width: 40%;
@@ -168,6 +171,7 @@ section.hero {
   }
 
   .social {
+    margin: 3.5em;
     color: #e94560;
 
     a {
@@ -190,7 +194,12 @@ section.hero {
 
   .wrapper {
     width: 1200px;
-    margin: 0 auto;
+    margin: 0em 0em;
+  }
+
+  .topnav {
+    width: 113.9%;
+    padding: 0%;
   }
 }
 
