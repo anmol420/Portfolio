@@ -19,8 +19,8 @@ a {
   width: 100%;
   height: 90vh;
   z-index: -1;
-  -webkit-animation: introLoad 2s forwards;
-          animation: introLoad 2s forwards;
+  -webkit-animation: introLoad 4s forwards;
+          animation: introLoad 4s forwards;
 }
 
 .topnav {
@@ -36,20 +36,20 @@ a {
   padding: 2vh 1.9vh;
   text-decoration: none;
   font-size: 1.24rem;
-  -webkit-animation: introLoad 2s forwards;
-          animation: introLoad 2s forwards;
+  -webkit-animation: introLoad 4s forwards;
+          animation: introLoad 4s forwards;
 }
 
 .topnav a span {
   color: #e94560;
 }
 
-.topnav a.active:hover {
+.topnav a:hover {
   color: #3f3d56;
   background-color: #e94560;
 }
 
-.topnav a.active:hover span {
+.topnav a:hover span {
   color: #3f3d56;
 }
 
@@ -57,8 +57,8 @@ h1 {
   font-size: 2.5rem;
   margin-top: 0.5em;
   line-height: 3rem;
-  -webkit-animation: introLoad 2s forwards;
-          animation: introLoad 2s forwards;
+  -webkit-animation: introLoad 4s forwards;
+          animation: introLoad 4s forwards;
 }
 
 h1 span {
@@ -72,8 +72,8 @@ h1 span {
 section.hero {
   margin: 1.35em;
   color: black;
-  -webkit-animation: introLoad 2s forwards;
-          animation: introLoad 2s forwards;
+  -webkit-animation: introLoad 4s forwards;
+          animation: introLoad 4s forwards;
 }
 
 .social {
@@ -100,6 +100,8 @@ section.hero {
   color: #e94560;
   text-decoration: none;
   text-align: center;
+  -webkit-animation: introLoad 4s forwards;
+          animation: introLoad 4s forwards;
 }
 
 @media only screen and (min-width: 680px) {
@@ -115,8 +117,8 @@ section.hero {
     padding: 2vh 22.8vh;
     text-decoration: none;
     font-size: 1.24rem;
-    -webkit-animation: introLoad 2s forwards;
-            animation: introLoad 2s forwards;
+    -webkit-animation: introLoad 4s forwards;
+            animation: introLoad 4s forwards;
   }
   .topnav a span {
     color: #e94560;
@@ -148,8 +150,8 @@ section.hero {
     padding: 1% 12.5%;
     text-decoration: none;
     font-size: 1.24rem;
-    -webkit-animation: introLoad 2s forwards;
-            animation: introLoad 2s forwards;
+    -webkit-animation: introLoad 4s forwards;
+            animation: introLoad 4s forwards;
   }
   .topnav a span {
     color: #e94560;
@@ -160,8 +162,6 @@ section.hero {
     height: auto;
     width: 40%;
     margin-bottom: 8em;
-    -webkit-animation: introLoad 2s forwards;
-            animation: introLoad 2s forwards;
   }
   .social {
     margin: 3.5em;

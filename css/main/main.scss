@@ -19,7 +19,7 @@ a {
   width: 100%;
   height: 90vh;
   z-index: -1;
-  animation: introLoad 2s forwards;
+  animation: introLoad 4s forwards;
   //overflow: hidden;
 }
 
@@ -41,10 +41,10 @@ a {
     color: #e94560;
   }
 
-  animation: introLoad 2s forwards;
+  animation: introLoad 4s forwards;
 }
 
-.topnav a.active:hover {
+.topnav a:hover {
   color: #3f3d56;
   background-color: #e94560;
 
@@ -62,7 +62,7 @@ h1 {
     color: #e94560;
   }
 
-  animation: introLoad 2s forwards;
+  animation: introLoad 4s forwards;
 }
 
 .subhead {
@@ -72,7 +72,7 @@ h1 {
 section.hero {
   margin: 1.35em;
   color: black;
-  animation: introLoad 2s forwards;
+  animation: introLoad 4s forwards;
 }
 
 .social {
@@ -99,6 +99,7 @@ section.hero {
   color: #e94560;
   text-decoration: none;
   text-align: center;
+  animation: introLoad 4s forwards;
 }
 
 @media only screen and (min-width : 680px) {
@@ -120,7 +121,7 @@ section.hero {
       color: #e94560;
     }
 
-    animation: introLoad 2s forwards;
+    animation: introLoad 4s forwards;
   }
 }
 
@@ -158,7 +159,7 @@ section.hero {
       color: #e94560;
     }
 
-    animation: introLoad 2s forwards;
+    animation: introLoad 4s forwards;
   }
 
   section.hero {
@@ -167,7 +168,6 @@ section.hero {
     height: auto;
     width: 40%;
     margin-bottom: 8em;
-    animation: introLoad 2s forwards;
   }
 
   .social {
