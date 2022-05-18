@@ -1,16 +1,16 @@
 body {
-    margin: 1.35em;
-    font-family: 'Poppins', sans-serif;
+  margin: 0em 0em;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
-    text-decoration: none;
-    font-size: 1.3rem;
+  text-decoration: none;
+  font-size: 1.3rem;
 }
 
 .hero-img {
-  position : absolute;
-  top : 0;
+  position: absolute;
+  top: 0;
   left: 0;
   background: url('../../images/programmer.svg');
   background-size: cover;
@@ -33,18 +33,21 @@ a {
   float: left;
   color: #e94560;
   text-align: center;
-  padding: 2vh 0.9vh;
+  padding: 2vh 1.9vh;
   text-decoration: none;
   font-size: 1.24rem;
+
   span {
     color: #e94560;
   }
+
   animation: introLoad 2s forwards;
 }
 
 .topnav a.active:hover {
   color: #3f3d56;
   background-color: #e94560;
+
   span {
     color: #3f3d56;
   }
@@ -58,6 +61,7 @@ h1 {
   span {
     color: #e94560;
   }
+
   animation: introLoad 2s forwards;
 }
 
@@ -66,12 +70,15 @@ h1 {
 }
 
 section.hero {
-  color : black;
+  margin: 1.35em;
+  color: black;
   animation: introLoad 2s forwards;
 }
 
 .social {
+  margin: 1.35em;
   color: #e94560;
+
   a {
     font-size: 50px;
     color: inherit;
@@ -96,49 +103,73 @@ section.hero {
 
 @media only screen and (min-width : 680px) {
   body {
-    margin: 1.5em 5em;
-    font-family: 'Poppins',sans-serif;
+    margin: 0em 0em;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .topnav a {
+    background-color: #3f3d56;
+    float: left;
+    color: #e94560;
+    text-align: center;
+    padding: 2vh 22.8vh;
+    text-decoration: none;
+    font-size: 1.24rem;
+
+    span {
+      color: #e94560;
+    }
+
+    animation: introLoad 2s forwards;
   }
 }
 
 @media only screen and (min-width : 920px) {
 
+  body {
+    margin: 0em 0em;
+    font-family: 'Poppins', sans-serif;
+  }
+
   .hero-img {
-      left: unset;
-      right: 0;
-      width: 50%;
-      height: 39em;
+    left: unset;
+    right: 0;
+    width: 50%;
+    height: 39em;
   }
 
   .topnav {
     background-color: #3f3d56;
     overflow: hidden;
-}
-
-.topnav a {
-  background-color: #3f3d56;
-  float: left;
-  color: #e94560;
-  text-align: center;
-  padding: 1% 12.5%;
-  text-decoration: none;
-  font-size: 1.24rem;
-  span {
-    color: #e94560;
   }
-  animation: introLoad 2s forwards;
-}
+
+  .topnav a {
+    background-color: #3f3d56;
+    float: left;
+    color: #e94560;
+    text-align: center;
+    padding: 1% 12.5%;
+    text-decoration: none;
+    font-size: 1.24rem;
+
+    span {
+      color: #e94560;
+    }
+
+    animation: introLoad 2s forwards;
+  }
 
   section.hero {
-      color: black;
-      height: auto;
-      width: 40%;
-      margin-bottom: 8em;
-      animation: introLoad 2s forwards;
+    color: black;
+    height: auto;
+    width: 40%;
+    margin-bottom: 8em;
+    animation: introLoad 2s forwards;
   }
 
   .social {
     color: #e94560;
+
     a {
       font-size: 50px;
       color: inherit;
@@ -152,17 +183,23 @@ section.hero {
 }
 
 @media only screen and (min-width : 1200px) {
+  body {
+    margin: 0em 0em;
+    font-family: 'Poppins', sans-serif;
+  }
+
   .wrapper {
-      width: 1200px;
-      margin: 0 auto;
+    width: 1200px;
+    margin: 0 auto;
   }
 }
 
 @keyframes introLoad {
   from {
-      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
+
   to {
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 }
