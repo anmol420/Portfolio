@@ -100,8 +100,6 @@ section.hero {
   color: #e94560;
   text-decoration: none;
   text-align: center;
-  -webkit-animation: introLoad 4s forwards;
-          animation: introLoad 4s forwards;
 }
 
 @media screen and (max-width: 600px) {
