@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="png" href="./images/fevicon.png">
 </head>
 
@@ -20,10 +21,13 @@
     <div class="hero-img"></div>
     <div class="wrapper">
         <header>
-            <div class="topnav">
-                <a class="active" href="./index.html">An<span>MoL</span></a>
-                <a href="./src/stats.html">Stati<span>stics</span></a>
-                <a href="./src/tech.html">Tech-<span>Stack</span></a>
+            <div class="topnav" id="myTopNav">
+                <a href="./index.html" class="active">AnMoL</a>
+                <a href="./src/contact.html">Contact Me</a>
+                <a href="./src/tech.html">Tech-Stack</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
         </header>
         <section class="hero">
@@ -42,6 +46,7 @@
     <div class="footer">
         <p></p>
     </div>
+    <script src="./index.js"></script>
 </body>
 
 </html>
