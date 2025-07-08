@@ -5,6 +5,7 @@ import { Github, Linkedin, Mail, ExternalLink, Menu, X } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import Head from "next/head"
 
 export default function Portfolio() {
   const techStack = ["JavaScript", "TypeScript", "Node.js", "Bun", "NPM", "Express", "Hono", "Discord.JS", "MongoDB", "PostgreSQL", "Docker", "Redis", "RabbitMQ", "Prisma", "Drizzle", "AWS", "Flutter", "Dart", "Java", "Spring Boot", "Maven", "Spring JPA", "Spring Security", "Go", "Fiber", "gRPC", "Git", "Swagger"]
@@ -40,6 +41,12 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen bg-black text-white">
+      <Head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+      </Head>
       <nav className="flex items-center justify-center p-6">
         <div className="flex items-center justify-between border border-white/20 rounded-full px-4 md:px-8 py-3 w-full max-w-4xl">
           <Link href="/" className="text-xl font-semibold text-pink-500">
