@@ -208,7 +208,7 @@ export default function Portfolio() {
             <p className="text-gray-300 text-lg">Let's work together on your next project</p>
           </div>
 
-          <div className="border border-white/20 p-8 rounded-lg min-h-[400px] flex flex-col justify-center space-y-8">
+          <div className="border border-white/20 p-8 rounded-lg min-h-[200px] flex flex-col justify-center space-y-8">
             <p className="text-gray-300 leading-relaxed text-lg">
               I'm always interested in hearing about new opportunities and exciting projects. Whether you have a
               question or just want to say hi, feel free to reach out!
